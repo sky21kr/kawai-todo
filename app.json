@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Kawai To Do",
-    "slug": "kawai-todo",
+    "name": "To Do Do Do",
+    "slug": "to-do-do-do",
     "privacy": "public",
     "sdkVersion": "36.0.0",
     "platforms": [
@@ -14,8 +14,8 @@
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "resizeMode": "cover",
+      "backgroundColor": "#23657"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -25,6 +25,9 @@
     ],
     "ios": {
       "supportsTablet": true
+    },
+    "android": {
+        "package": "co.sky21kr.todododo"
     }
   }
 }
